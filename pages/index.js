@@ -21,7 +21,7 @@ export default function Home() {
             Under Construction
           </h2>
           <p className="xl:text-base">
-            for any inquiries, please send an email to{" "}
+            for any inquiries, please send an email to:{" "}
             <a href="mailto:jpwijanto@merokket.id">jpwijanto@merokket.id</a>
           </p>
         </div>
