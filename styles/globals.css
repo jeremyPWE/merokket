@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p {
+    @apply text-base font-poppins;
+  }
+  h1 {
+    @apply font-noto;
+  }
+  h2 {
+    @apply font-bold text-3xl xl:text-4xl font-noto;
+  }
+  h3 {
+    @apply font-bold text-xl md:text-2xl xl:text-3xl font-noto;
+  }
+  body {
+    @apply text-textPrimary;
+  }
+}

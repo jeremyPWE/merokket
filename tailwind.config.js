@@ -1,0 +1,51 @@
+module.exports = {
+  mode: "jit",
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      colors: {
+        ringfocus: "#15678A",
+        textPrimary: "#063F58",
+        textSecondary: "#6A8C9B",
+        redChara: "#FF6161",
+        orangeChara: "#FFCD4E",
+        blueChara: "#7F97FE",
+        bgOne: "#ECFDFF",
+        works3: "#F5F3EB",
+        galleryPink: "#FFE8F0",
+        galleryCream: "#F9E1C5",
+        gallerySand: "#F5F3EB",
+        workico1: "#C9F3C6",
+        workico2: "#FFE8CD",
+        workico3: "#FFDECE",
+      },
+      spacing: {
+        88: "21rem",
+        98: "26.5rem",
+        102: "32rem",
+        112: "36rem",
+        140: "40rem",
+        800: "50rem",
+        1000: "62.5rem",
+        1280: "80rem",
+        1400: "90rem",
+        2000: "140rem",
+        2500: "150rem",
+        3000: "175rem",
+        3200: "190rem",
+        4000: "250rem",
+        4800: "300rem",
+        6400: "400rem",
+      },
+      fontFamily: {
+        noto: ["Noto Serif", "serif"],
+        poppins: ["Poppins", "sans-serif"],
+      },
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [require("tailwind-scrollbar-hide")],
+};
