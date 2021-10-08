@@ -19,8 +19,19 @@ export default function OurWorks() {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
-        <title>Merokket</title>
+        <meta charset="UTF-8" />
+        <meta
+          name="google-site-verification"
+          content="IUF2ms5XgzjoluJifmHlHM4rw7-ZbxViAk5_7T4Xmzo"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/icons/ico.png" />
+        <title>Merokket</title>
+        <meta property="og:title" content="Merokket" key="title" />
+        <meta
+          name="description"
+          content="A group of web developers and UI/UX designers, trying to create an exceptional visualization with a spot on functionality."
+        ></meta>
       </Head>
       <Navigation toggleC={toggleC} isContact={isContact} />
 
