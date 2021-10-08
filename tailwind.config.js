@@ -13,7 +13,7 @@ module.exports = {
         blueChara: "#7F97FE",
         bgOne: "#ECFDFF",
         works3: "#F5F3EB",
-        galleryPink: "#FFE8F0",
+        galleryPink: "#FFCEC2",
         galleryCream: "#F9E1C5",
         gallerySand: "#F5F3EB",
         workico1: "#C9F3C6",

@@ -7,7 +7,7 @@ function DesignChallenge() {
         <div className="md:px-14 lg:px-20 md:max-w-3xl xl:max-w-5xl 2xl:max-w-7xl flex flex-col items-center justify-center gap-10">
           <div className="max-w-4xl">
             <h1 className="text-4xl xl:text-5xl font-bold py-7">
-              Landing Page Exploration
+              Redefining Landing Page
             </h1>
             <p className="text-textSecondary">
               Landing Page is a web page that consumer can land on, but in the
@@ -26,7 +26,7 @@ function DesignChallenge() {
           </div>
         </div>
       </div>
-      <div className="bg-galleryPink w-full p-5 sm:px-10 md:px-14 lg:px-20 flex justify-center items-center">
+      <div className="bg-workico2 w-full p-5 sm:px-10 md:px-14 lg:px-20 flex justify-center items-center">
         <div className="md:px-14 lg:px-20 md:max-w-3xl xl:max-w-5xl 2xl:max-w-7xl flex flex-col items-center justify-center gap-10">
           <div className="max-w-4xl">
             <h1 className="text-4xl xl:text-5xl font-bold py-7">
@@ -49,7 +49,7 @@ function DesignChallenge() {
           </div>
         </div>
       </div>
-      <div className="bg-galleryCream w-full p-5 sm:px-10 md:px-14 lg:px-20 flex justify-center items-center">
+      <div className="bg-galleryPink w-full p-5 sm:px-10 md:px-14 lg:px-20 flex justify-center items-center">
         <div className="md:px-14 lg:px-20 md:max-w-3xl xl:max-w-5xl 2xl:max-w-7xl flex flex-col items-center justify-center gap-10">
           <div className="max-w-4xl">
             <h1 className="text-4xl xl:text-5xl font-bold py-7">

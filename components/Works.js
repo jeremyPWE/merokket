@@ -97,10 +97,12 @@ const Works = () => {
         <Link href="/our-works?category=recent-project" passHref>
           <div className="bg-workico3 rounded-xl py-5 xl:pt-10 shadow-md hover:shadow-2xl hover:p-14 hover:pb-5 transition-all duration-200 ease-out xl:grid xl:grid-cols-3 xl:justify-center px-5 xl:px-14 cursor-pointer">
             <div className="text-center xl:text-left xl:flex xl:flex-col justify-center gap-2">
-              <h3>Full web design challenge</h3>
+              <h3 className="sm:hidden">Avaterra Living</h3>
+              <h3 className="hidden sm:block">
+                Recent project: Avaterra Living
+              </h3>
               <p>
-                Good design sells and first web impression are 94% design
-                related.
+                To promote the best handicrafts from local Indonesian artisans.
               </p>
               <div className="hidden xl:flex flex-wrap gap-3 pt-5 justify-start">
                 <p className="p-2 ring-1 ring-textPrimary rounded-lg">
@@ -131,7 +133,7 @@ const Works = () => {
               </p>
               <p className="p-2 ring-1 ring-textPrimary rounded-lg">Branding</p>
               <p className="p-2 ring-1 ring-textPrimary rounded-lg">
-                Design challenge
+                Recent Project
               </p>
             </div>
           </div>
