@@ -112,7 +112,7 @@ const Works = () => {
                   Branding
                 </p>
                 <p className="p-2 ring-1 ring-textPrimary rounded-lg">
-                  Design challenge
+                  Recent Project
                 </p>
               </div>
             </div>

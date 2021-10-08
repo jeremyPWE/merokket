@@ -25,10 +25,14 @@ export default function Home() {
         <meta property="og:url" content="https://merokket.id/" />
         <meta property="og:locale" content="en-US" />
         {/*title*/}
-        <title>Merokket</title>
+        <title>Merokket | Web Developer & UI/UX Designer</title>
         {/*site name & desc*/}
         <meta property="og:site_name" content="Merokket" />
-        <meta property="og:title" content="Merokket" key="title" />
+        <meta
+          property="og:title"
+          content="Merokket | Web Developer & UI/UX Designer"
+          key="title"
+        />
         <meta
           name="og:description"
           content="A group of web developers and UI/UX designers, trying to create an exceptional visualization with a spot on functionality."

@@ -32,7 +32,7 @@ export default function OurWorks() {
         {/*title*/}
         <title>Merokket | Our Work</title>
         {/*site name & desc*/}
-        <meta property="site_name" content="Merokket" />
+        <meta property="og:site_name" content="Merokket" />
         <meta property="og:title" content="Merokket | Our Work" key="title" />
         <meta
           name="og:description"
