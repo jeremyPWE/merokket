@@ -1,5 +1,11 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import nodemailer from "nodemailer";
+import Cors from "cors";
+
+// Initializing the cors middleware
+const cors = Cors({
+  methods: ["GET", "HEAD"],
+});
 export default async function contact(req, res) {
   const { name, email, message, phone } = req.body;
 
