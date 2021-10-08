@@ -28,7 +28,7 @@ const Works = () => {
                   alt="our works image 1"
                   layout="fill"
                 />
-                <div className="w-72 h-48 xl:w-102 xl:h-80 2xl:w-112 2xl:h-88 rounded-t-xl shadow-xl xl:shadow-2xl" />
+                <div className="w-72 h-48 xl:w-102 xl:h-96 2xl:w-112 2xl:h-98 rounded-t-xl shadow-xl xl:shadow-2xl" />
               </div>
             </div>
             <div className="flex flex-wrap gap-3 justify-center xl:hidden">
