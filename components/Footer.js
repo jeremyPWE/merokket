@@ -11,7 +11,11 @@ const Footer = ({ toggleC }) => {
               Ready to propel your business
             </h1>
             <div className="flex gap-4 py-5 justify-center sm:justify-start">
-              <a href="https://www.instagram.com/merokket.id/" target="_blank">
+              <a
+                href="https://www.instagram.com/merokket.id/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 <svg
                   className="w-6 h-6"
@@ -36,6 +40,7 @@ const Footer = ({ toggleC }) => {
               <a
                 href="https://wa.me/6285156989761?text=Hallo%20merokket"
                 target="_blank"
+                rel="noreferrer"
               >
                 <svg
                   className="w-6 h-6"
@@ -53,15 +58,15 @@ const Footer = ({ toggleC }) => {
           </div>
           <div className="sm:flex justify-center 2xl:justify-end hidden pt-5">
             <div className="flex flex-col text-left gap-4">
-              <Link className="p-4" href="/">
+              <Link className="p-4" href="/" passHref>
                 <a className="hover:font-semibold active:font-semibold">Home</a>
               </Link>
-              <Link className="p-4" href="/#services">
+              <Link className="p-4" href="/#services" passHref>
                 <a className="hover:font-semibold active:font-semibold">
                   Services
                 </a>
               </Link>
-              <Link className="p-4" href="/our-works">
+              <Link className="p-4" href="/our-works" passHref>
                 <a className="hover:font-semibold active:font-semibold">
                   Our works
                 </a>
@@ -77,7 +82,7 @@ const Footer = ({ toggleC }) => {
         </div>
         <div className="px-5 w-full h-px bg-textPrimary" />
         <div className="flex justify-center py-5">
-          <Link href="/">
+          <Link href="/" passHref>
             <a className="flex items-center">
               <Image
                 className="object-contain cursor-pointer"

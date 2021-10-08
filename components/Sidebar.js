@@ -13,7 +13,7 @@ const Sidebar = ({ isOpen, toggle, toggleC }) => {
       <div className="absolute top-0 right-0 z-30 w-11/12 max-w-xs bg-white h-full rounded-l-lg">
         <div className="flex pb-7 p-5 items-center justify-between">
           <div>
-            <Link href="/">
+            <Link href="/" passHref>
               <a className="flex items-center">
                 <Image
                   className="object-contain cursor-pointer"
@@ -44,21 +44,21 @@ const Sidebar = ({ isOpen, toggle, toggleC }) => {
         <div className="h-px mx-5 bg-gray-300"></div>
         <ul className="px-5 pt-3" onClick={toggle}>
           <li>
-            <Link href="/">
+            <Link href="/" passHref>
               <a className="block py-3 px-5 focus:bg-gray-100 rounded-lg">
                 Home
               </a>
             </Link>
           </li>
           <li>
-            <Link href="/#services">
+            <Link href="/#services" passHref>
               <a className="block py-3 px-5 focus:bg-gray-100 rounded-lg">
                 Services
               </a>
             </Link>
           </li>
           <li>
-            <Link href="/our-works">
+            <Link href="/our-works" passHref>
               <a className="block py-3 px-5 rounded-lg focus:bg-gray-100">
                 Our works
               </a>

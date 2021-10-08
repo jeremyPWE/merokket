@@ -8,7 +8,7 @@ const Navbar = ({ toggle, toggleC }) => {
       role="navigation"
     >
       <div className="flex pl-4 md:pl-12 lg:pl-20 xl:pl-32 items-center">
-        <Link href="/">
+        <Link href="/" passHref>
           <Image
             className="object-contain cursor-pointer"
             src="/icons/dark-icon.svg"
@@ -36,13 +36,13 @@ const Navbar = ({ toggle, toggleC }) => {
         </svg>
       </div>
       <div className="pr-12 lg:pr-20 xl:pr-32 md:flex hidden space-x-10 items-center">
-        <Link className="p-4" href="/">
+        <Link className="p-4" href="/" passHref>
           <a className="hover:font-semibold active:font-semibold">Home</a>
         </Link>
-        <Link className="p-4" href="/#services">
+        <Link className="p-4" href="/#services" passHref>
           <a className="hover:font-semibold active:font-semibold">Services</a>
         </Link>
-        <Link className="p-4" href="/our-works">
+        <Link className="p-4" href="/our-works" passHref>
           <a className="hover:font-semibold active:font-semibold">Our works</a>
         </Link>
         <a

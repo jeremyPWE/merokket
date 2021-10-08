@@ -6,7 +6,7 @@ const Works = () => {
     <div className="p-5 pt-14 sm:px-10 md:px-14 lg:px-20 flex flex-col items-center">
       <h2 className="text-center">Our Works</h2>
       <div className="flex flex-col py-5 xl:py-10 gap-5 xl:gap-8 w-full md:max-w-3xl xl:max-w-5xl 2xl:max-w-6xl">
-        <Link href="/our-works?category=design-challenge">
+        <Link href="/our-works?category=design-challenge" passHref>
           <div className="bg-workico1 rounded-xl py-5 xl:pt-10 shadow-md hover:shadow-2xl hover:p-14 hover:pb-5 transition-all duration-200 ease-out xl:grid xl:grid-cols-3 xl:justify-center px-5 xl:px-14 cursor-pointer">
             <div className="text-center xl:text-left xl:flex xl:flex-col justify-center gap-2">
               <h3>Redefining landing page</h3>
@@ -41,7 +41,7 @@ const Works = () => {
             </div>
           </div>
         </Link>
-        <Link href="/our-works?category=design-challenge">
+        <Link href="/our-works?category=design-challenge" passHref>
           <div className="bg-workico2 rounded-xl py-5 xl:pt-10 shadow-md hover:shadow-2xl hover:p-14 hover:pb-5 transition-all duration-200 ease-out xl:grid xl:grid-cols-3 xl:justify-center px-5 xl:px-14 cursor-pointer">
             <div className="text-center xl:text-left xl:flex xl:flex-col justify-center gap-2">
               <h3>Mobile design challenge</h3>
@@ -94,7 +94,7 @@ const Works = () => {
             </div>
           </div>
         </Link>
-        <Link href="/our-works?category=recent-project">
+        <Link href="/our-works?category=recent-project" passHref>
           <div className="bg-workico3 rounded-xl py-5 xl:pt-10 shadow-md hover:shadow-2xl hover:p-14 hover:pb-5 transition-all duration-200 ease-out xl:grid xl:grid-cols-3 xl:justify-center px-5 xl:px-14 cursor-pointer">
             <div className="text-center xl:text-left xl:flex xl:flex-col justify-center gap-2">
               <h3>Full web design challenge</h3>

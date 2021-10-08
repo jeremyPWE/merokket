@@ -17,6 +17,7 @@ function RecentProject() {
                     className="font-medium text-textPrimary"
                     href="https://composuremagazine.com"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     composure magazine
                   </a>
@@ -55,6 +56,7 @@ function RecentProject() {
                     className="font-medium text-textPrimary"
                     href="https://avaterraliving.com"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     avaterra living
                   </a>
