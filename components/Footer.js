@@ -15,6 +15,7 @@ const Footer = ({ toggleC }) => {
                 href="https://www.instagram.com/merokket.id/"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="instagram"
               >
                 {" "}
                 <svg
@@ -42,6 +43,7 @@ const Footer = ({ toggleC }) => {
                 href="https://wa.me/6285156989761?text=Hallo%20merokket"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="whatsapp"
               >
                 <svg
                   className="w-6 h-6"
