@@ -5,19 +5,22 @@
 @tailwind utilities;
 
 @layer base {
-  p {
-    @apply text-base font-poppins;
+  body {
+    @apply text-white bg-[#141414];
   }
   h1 {
-    @apply font-noto;
+    @apply text-[30px] leading-[34px] md:text-[48px] md:leading-[52px] 2xl:text-[128px] 2xl:leading-[132px] tracking-tighter font-medium;
   }
   h2 {
-    @apply font-bold text-3xl xl:text-4xl font-noto;
+    @apply text-[24px] md:text-[30px] 2xl:text-[64px] font-medium 2xl:leading-[70px];
   }
   h3 {
-    @apply font-bold text-xl md:text-2xl xl:text-3xl font-noto;
+    @apply text-[16px] md:text-[24px] 2xl:text-[48px];
   }
-  body {
-    @apply text-textPrimary;
+  h4 {
+    @apply 2xl:text-[32px];
+  }
+  p {
+    @apply 2xl:font-light text-[14px] md:text-[16px];
   }
 }

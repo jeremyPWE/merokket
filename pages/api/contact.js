@@ -1,43 +1,43 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import nodemailer from "nodemailer";
-import Cors from "cors";
+export default async function (req, res) {
+  require("dotenv").config();
 
-// Initializing the cors middleware
-const cors = Cors({
-  methods: ["GET", "HEAD"],
-});
-export default async function contact(req, res) {
-  const { name, email, message, phone } = req.body;
-
+  let nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
-    host: "srv54.niagahoster.com",
     port: 465,
-    secure: true,
+    host: "smtp.gmail.com",
     auth: {
       user: process.env.user,
       pass: process.env.pass,
     },
+    secure: true,
   });
-
-  try {
-    const emailResponse = await transporter.sendMail({
-      from: process.env.user,
-      to: "jpwijanto@merokket.id, sylvesterglen@merokket.id",
-      replyTo: email,
-      subject: `Merokket contact form submission from ${name}`,
-      html: `<p>You have a new contact form submission</p><br>
-      <p><strong>Name: </strong> ${name}</p><br>
-      <p><strong>Email: </strong> ${email}</p><br>
-      <p><strong>Phone: </strong> ${phone}</p><br>
-      <p><strong>Message: </strong> ${message}</p><br>
-      
-      `,
+  const { name, email, time, date, phone, topic, msg } = req.body;
+  const mailData = {
+    from: process.env.user,
+    to: "jpwijanto@gmail.com",
+    replyTo: email,
+    subject: `SURAJA LAW OFFICES contact form submission from ${name}`,
+    html: `<p><strong>Ada Permintaan Penjadwalan Konsultasi Baru, dari </strong></p>
+            <p><strong>Nama: </strong> ${name}</p>
+            <p><strong>Email: </strong> ${email}</p>
+            <p><strong>Nomor Whatsapp: </strong> <a href="https://wa.me/${phone}">${phone}</a></p>
+            <p><strong>Tanggal: </strong> ${date}</p>
+            <p><strong>Jam Konsultasi: </strong> ${time}</p>
+            <p><strong>Topic Konsultasi: </strong> ${topic}</p>
+            <p><strong>Deskripsi Masalah: </strong> ${msg}</p>          
+            <p><strong>Hubungi pemohon untuk memastikan penjadwalan konsultasi.</strong></p>
+            `,
+  };
+  await new Promise((resolve, reject) => {
+    transporter.sendMail(mailData, function (err, info) {
+      if (err) {
+        console.log(err);
+        reject(err);
+      } else {
+        console.log(info);
+        resolve(info);
+      }
     });
-
-    console.log("Message Sent", email.messageId);
-  } catch (err) {
-    console.log(err);
-  }
-
-  res.status(200).json(req.body);
+  });
+  res.status(200).json({ status: "OK" });
 }
