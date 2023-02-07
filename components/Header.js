@@ -31,7 +31,7 @@ function Header({ ...props }) {
       <meta
         data-react-helmet="true"
         property="og:image"
-        content="https://www.merokket.id/og-image.png"
+        content="https://merokket.id/icons/ico.png"
       />
       <link rel="icon" href="/icons/ico.png" />
     </Head>
