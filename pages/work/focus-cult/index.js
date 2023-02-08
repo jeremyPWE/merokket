@@ -17,6 +17,10 @@ export default function FocusCult() {
         />
         <Section className="flex-col">
           <PictCaption
+            title="PROBLEM CONTEXT"
+            desc="In this digital era people are much empowered by convinience. Mobilephone are part of our everyday life, it&lsquo;s undeniable that smartphone has aid our daily activity tremendously. With it&lsquo;s good trait it also come with some bad trait to our daily life. This dependency on smartphone would soon turned into a smartphone addiction, that bring negative impact to our daily life. It&lsquo;s proneness to disrupt both sleep and daily productivity."
+          />
+          <PictCaption
             bigImg="/website/focus-cult/bigImg1.png"
             title="DESIGN PROCESS"
             desc="To find and formulate the solution, we used double diamond design approach throughout the process to find the solution."

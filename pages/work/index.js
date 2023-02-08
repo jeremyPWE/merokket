@@ -15,7 +15,9 @@ const services = () => {
         className="md:w-1/2"
       >
         <div className="flex flex-col items-center pt-[15px] pb-[50px] w-full">
-          <h1>WEBSITES</h1>
+          <h1 className="font-august font-bold tracking-normal 2xl:text-[100px]">
+            WEBSITES
+          </h1>
           <p className="hidden lg:flex w-[320px] text-center xl:text-left xl:w-[476px] pt-[50px]">
             By combining strategy, design, and technology we enable brands to
             share their story and connect with their customers
@@ -50,7 +52,9 @@ const services = () => {
         className="md:w-1/2"
       >
         <div className="flex flex-col items-center pt-[15px] pb-[50px] w-full">
-          <h1>BRANDING</h1>
+          <h1 className="font-august font-bold tracking-normal 2xl:text-[100px]">
+            BRANDING
+          </h1>
           <p className="hidden lg:flex w-[320px] text-center xl:text-left xl:w-[476px] pt-[50px]">
             Turning your complex business idea into a design that will leave an
             impression on every future potential customer.
@@ -81,7 +85,9 @@ const allProject = () => {
     .concat(otherData.content);
   return (
     <div className="flex flex-col w-full">
-      <h1>All Project</h1>
+      <h1 className="font-august font-bold tracking-normal 2xl:text-[100px]">
+        All Project
+      </h1>
 
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-[30px] 2xl:gap-[50px] pt-[35px] lg:pt-[90px]">
         {all.map((item, index) => (
@@ -96,7 +102,9 @@ const allProject = () => {
                 />
               </div>
               <div className="pt-[10px] lg:pt-[30px] 2xl:w-[624px]">
-                <h1 className="pb-[5px] lg:pb-[20px]">{item.imgTitle}</h1>
+                <h1 className="pb-[5px] lg:pb-[20px] font-august font-bold tracking-normal 2xl:text-[100px]">
+                  {item.imgTitle}
+                </h1>
                 <p>{item.imgDesc}</p>
               </div>
             </div>
@@ -110,7 +118,9 @@ const allProject = () => {
 const featuredWork = (data) => {
   return (
     <div className="flex flex-col w-full">
-      <h1>{data.title}</h1>
+      <h1 className="font-august font-bold tracking-normal 2xl:text-[100px]">
+        {data.title}
+      </h1>
 
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-[30px] lg:gap-[50px] pt-[35px] lg:pt-[90px]">
         {data.content.map((item, index) => (
@@ -125,7 +135,9 @@ const featuredWork = (data) => {
                 />
               </div>
               <div className="pt-[10px] lg:pt-[30px] 2xl:w-[624px]">
-                <h1 className="pb-[5px] lg:pb-[20px]">{item.imgTitle}</h1>
+                <h1 className="pb-[5px] lg:pb-[20px] font-august font-bold tracking-normal 2xl:text-[100px]">
+                  {item.imgTitle}
+                </h1>
                 <p>{item.imgDesc}</p>
               </div>
             </div>

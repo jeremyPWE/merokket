@@ -7,8 +7,8 @@ function BigPicture({ imgSrc, title, desc, link }) {
       <div className="relative w-full aspect-[2.3] z-0 bg-gray-300">
         <Image src={imgSrc} fill className="object-cover" alt={imgSrc} />
       </div>
-      <div className="relative flex flex-col items-center -mt-[20px] md:-mt-[30px] 2xl:-mt-[200px] z-10">
-        <h1 className="text-[48px] md:text-[72px] 2xl:text-[256px] 2xl:leading-normal text-center">
+      <div className="relative flex flex-col items-center -mt-[20px] md:-mt-[30px] lg:-mt-[80px] 2xl:-mt-[200px] z-10">
+        <h1 className="text-[48px] md:text-[72px] lg:text-[148px] lg:leading-[148px] 2xl:text-[256px] 2xl:leading-normal text-center font-august font-bold tracking-normal">
           {title}
         </h1>
         <p className="w-[295px] md:w-[500px] 2xl:w-[800px] lg:text-[24px] pt-[25px] 2xl:pt-0 text-center text-[#B1B1B1]">
@@ -26,7 +26,7 @@ function BigPicture({ imgSrc, title, desc, link }) {
               aria-hidden="true"
               fill="none"
               stroke="currentColor"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
               className="w-[16px] h-[16px] lg:w-[24px] lg:h-[24px] mt-[3px] lg:mt-[2px] ml-[5px]"

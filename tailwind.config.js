@@ -8,6 +8,8 @@ module.exports = {
       fontFamily: {
         noto: ["Noto Serif", "serif"],
         poppins: ["Poppins", "sans-serif"],
+        NeueHaasUnica: ["NeueHaasUnica", "sans-serif"],
+        august: ["August", "arial"],
       },
       animation: {
         marquee: "marquee 30s linear infinite",
