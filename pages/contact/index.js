@@ -40,10 +40,10 @@ export default function Contact() {
     <>
       <Header />
       <Layout>
-        <Section className="pt-[50px] xl:pt-[100px] flex-col md:gap-[50px]">
+        <Section className="pt-[50px] pb-[30px] xl:pt-[100px] flex-col md:gap-[50px]">
           <div className="flex flex-col justify-between w-full">
-            <div className="flex w-full pt-[40px]">
-              <Link href="/" className="mt-[10px] xl:w-1/3">
+            <div className="flex flex-col xl:flex-row gap-[30px] xl:gap-0 w-full">
+              <Link href="/" className="mt-[10px] xl:w-1/3 2xl:w-1/2">
                 <div className="flex items-center">
                   <svg
                     aria-hidden="true"

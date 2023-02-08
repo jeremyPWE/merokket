@@ -295,7 +295,6 @@ function Showcase() {
             EXPAND
           </Link>
         </div>
-        <div className="bg-black blur-[50px] w-[275px] h-[258px] md:w-[540px] md:h-[450px] 2xl:w-[1000px] 2xl:h-[828px] opacity-40 absolute top-0 -z-[1]"></div>
       </div>
     </div>
   );

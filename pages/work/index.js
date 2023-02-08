@@ -12,13 +12,13 @@ const services = () => {
         href={{ pathname: "/work", query: { type: "website" } }}
         className="md:w-1/2"
       >
-        <div className="flex flex-col items-center pt-[15px] pb-[50px] ">
+        <div className="flex flex-col items-center pt-[15px] pb-[50px] w-full">
           <h1>WEBSITES</h1>
           <p className="hidden lg:flex w-[320px] text-center xl:text-left xl:w-[476px] pt-[50px]">
             By combining strategy, design, and technology we enable brands to
             share their story and connect with their customers
           </p>
-          <div className="flex pt-[20px] xl:pt-[50px]">
+          <div className="flex items-center justify-center pt-[20px] xl:pt-[50px] w-full">
             <div className="2xl:w-[368px] lg:h-[231px] relative">
               <Image
                 src="/website/icon/al.png"
@@ -27,7 +27,7 @@ const services = () => {
                 alt=""
               />
             </div>
-            <div className="w-[280px] md:w-[300px] xl:w-[368px] aspect-[1.593] relative">
+            <div className="w-full md:w-[300px] xl:w-[368px] aspect-[1.593] relative">
               <Image
                 src="/website/icon/betu.png"
                 fill
@@ -45,16 +45,16 @@ const services = () => {
       <div className="w-[1px] bg-white" />
       <Link
         href={{ pathname: "/work", query: { type: "branding" } }}
-        className="lg:w-1/2"
+        className="md:w-1/2"
       >
-        <div className="flex flex-col items-center pt-[15px] pb-[50px]">
+        <div className="flex flex-col items-center pt-[15px] pb-[50px] w-full">
           <h1>BRANDING</h1>
           <p className="hidden lg:flex w-[320px] text-center xl:text-left xl:w-[476px] pt-[50px]">
             Turning your complex business idea into a design that will leave an
             impression on every future potential customer.
           </p>
-          <div className="flex pt-[20px] lg:pt-[40px] xl:pt-[50px]">
-            <div className="w-[280px] md:w-[300px] xl:w-[368px] 2xl:w-[512px] aspect-[1.593] 2xl:aspect-[2.216] relative">
+          <div className="flex items-center justify-center pt-[20px] lg:pt-[40px] xl:pt-[50px] w-full">
+            <div className="w-full md:w-[300px] xl:w-[368px] 2xl:w-[512px] aspect-[1.593] 2xl:aspect-[2.216] relative">
               <Image
                 src="/branding/icon/mr.png"
                 fill

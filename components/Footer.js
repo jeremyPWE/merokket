@@ -31,7 +31,7 @@ function Footer() {
             <Link href="/about" passHref>
               <div className="pt-[30px] text-right">ABOUT US</div>
             </Link>
-            <Link href="/works" passHref>
+            <Link href="/work" passHref>
               <div className="pt-[30px] text-right">OUR WORKS</div>
             </Link>
             <Link href="/contact" passHref>
@@ -56,8 +56,32 @@ function Footer() {
           BACK TO TOP
         </p>
         <div>
-          <p className="text-[16px]">+62 812-1632-9112 / +62 851-5698-9761</p>
-          <p className="text-[16px]">contact@merokket.id</p>
+          <p className="text-[16px]">
+            <a
+              href="https://wa.me/6281216329112?text=hallo%20merokket"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              +62 812-1632-9112
+            </a>{" "}
+            /{" "}
+            <a
+              href="https://wa.me/6285156989761?text=hallo%20merokket"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              +62 851-5698-9761
+            </a>
+          </p>
+          <p className="text-[16px]">
+            <a
+              href="mailto:contact@merokket.id"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              contact@merokket.id
+            </a>
+          </p>
         </div>
       </div>
       <p
