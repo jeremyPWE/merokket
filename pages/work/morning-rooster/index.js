@@ -24,7 +24,7 @@ export default function MorningRooster() {
           <PictCaption
             bigImg="/branding/morning-rooster/bigImg.png"
             title="HIGH QUALITY DIGITAL MOCKUP"
-            className="w-3/4 aspect-[0.324] bg-inherit"
+            className="w-3/4 aspect-[0.324] bg-[#141414]"
           />
           <div className="flex flex-col w-full 2xl:-mt-[50px]">
             <div className="w-full aspect-[1.501] relative bg-gray-300">
