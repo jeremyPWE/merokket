@@ -8,7 +8,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
-  const [contactDetail, setContactDetail] = useState([]);
   const {
     register,
     handleSubmit,
@@ -28,9 +27,9 @@ export default function Contact() {
       .then((res) => {
         console.log("Response received", res);
         if (res.status === 200) {
-          toast("common:toastOk");
+          toast("Message sent succesfully!");
         } else {
-          toast("common:toastFail");
+          toast("Failed to send.");
         }
       })
       .catch((e) => console.log(e));
