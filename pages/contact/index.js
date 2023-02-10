@@ -37,7 +37,10 @@ export default function Contact() {
   };
   return (
     <>
-      <Header />
+      <Header
+        title="Contact Merokket | Submit a Query via our Contact Form"
+        description="Get in touch with Merokket team. Fill out our contact form to reach us and we'll get back to you as soon as possible."
+      />
       <Layout>
         <Section className="pt-[50px] pb-[30px] xl:pt-[100px] flex-col md:gap-[50px]">
           <div className="flex flex-col justify-between w-full">

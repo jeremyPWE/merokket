@@ -6,7 +6,10 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      <Header />
+      <Header
+        title="About Merokket | Your Trusted Web Development & Design Partner"
+        description="Learn about Merokket and our team of experienced web developers and UI/UX designers. Discover our commitment to exceptional visualization and spot-on functionality."
+      />
       <Layout>
         <Section className="pt-[50px] xl:pt-[100px] flex-col md:gap-[20px] xl:gap-[50px]">
           <div className="flex flex-col xl:flex-row justify-between w-full">

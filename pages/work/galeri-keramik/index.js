@@ -8,7 +8,10 @@ import Section from "../../../components/Section";
 export default function GaleriKeramik() {
   return (
     <>
-      <Header />
+      <Header
+        title="Merokket | Showcasing Our Work and Services"
+        description="Explore the stunning results of our previous work. See why Merokket is the top choice for expert design and development services"
+      />
       <Layout>
         <BigPicture
           imgSrc="/website/galeri-keramik/big.png"

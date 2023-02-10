@@ -153,7 +153,10 @@ export default function Work() {
   const pathName = router.query;
   return (
     <>
-      <Header />
+      <Header
+        title="Merokket | Showcasing Our Work and Services"
+        description="Explore our portfolio and see how we've helped businesses achieve their goals through our web development and design services. Contact us to learn more."
+      />
       <Layout>
         <Section className="flex-col gap-[50px] pt-[30px] lg:pt-[90px] pb-[40px]">
           <div className="border-t border-b py-[10px] lg:py-[30px] border-white w-full">

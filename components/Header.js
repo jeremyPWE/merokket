@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 
-function Header({ ...props }) {
+function Header({ title, description }) {
   return (
     <Head>
       <meta
@@ -13,21 +13,12 @@ function Header({ ...props }) {
       <meta property="og:url" content="https://merokket.id/" />
       <meta property="og:locale" content="en-US" />
       {/*title*/}
-      <title>Merokket | Web Developer & UI/UX Designer</title>
+      <title>{title}</title>
       {/*site name & desc*/}
       <meta property="og:site_name" content="Merokket" />
-      <meta
-        property="og:title"
-        content="Merokket | Web Developer & UI/UX Designer"
-      />
-      <meta
-        name="og:description"
-        content="A group of web developers and UI/UX designers, trying to create an exceptional visualization with a spot on functionality."
-      />
-      <meta
-        name="description"
-        content="A group of web developers and UI/UX designers, trying to create an exceptional visualization with a spot on functionality."
-      />
+      <meta property="og:title" content={title} />
+      <meta name="og:description" content={description} />
+      <meta name="description" content={description} />
       <meta
         data-react-helmet="true"
         property="og:image"
