@@ -13,13 +13,13 @@ export default function MorningRooster() {
         <BigPicture
           imgSrc="/branding/morning-rooster/big.png"
           title="MORNING ROOSTER"
-          desc="Morning Rooster is a small roastery, where it intends to expand their business by selling a high quality coffee beans and coffee drip product. My role was to help developing a visual identity that could be notice in an already competitive region, through wich it could express it&lsquo;s commitment to it&lsquo;s customer and specialized supplier."
+          desc="Morning Rooster is a small roastery that intends to expand its business by selling high-quality coffee beans and coffee drip products. My role was to help develop a visual identity that could be noticed in an already competitive region, through which it could express its commitment to its customers and specialized suppliers."
         />
         <Section className="flex-col -mt-[90px] xl:-mt-0">
           <PictCaption
             smallImg="/branding/morning-rooster/smallImg.png"
             title="BRAND & LOGO CONCEPT"
-            desc="The name “Morning Rooster” indicates, a journet of quick and meaningful morning routine experiences. Providing a high quality quick to brew coffee drip for their target audiences that likes to drink coffee in the morning, but don&lsquo;t have much time to brew their own coffee."
+            desc="The name &lqdquo;Morning Rooster&rdquo; indicates a journey of quick and meaningful morning routine experiences. They provide a high-quality, quick-brew coffee drip for their target audiences that like to drink coffee in the morning but don&lsquo;t have much time to brew their own coffee."
           />
           <PictCaption
             bigImg="/branding/morning-rooster/bigImg.png"

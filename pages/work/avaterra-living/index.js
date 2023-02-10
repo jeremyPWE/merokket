@@ -12,7 +12,7 @@ export default function Travellux() {
         <BigPicture
           imgSrc="/website/avaterra-living/big.png"
           title="AVATERRA LIVING"
-          desc="We teamed up with the people from Avaterra Living to design and create their first ever website. Avaterra living is a company with a mission and vision to promote the best handicrafts from local Indonesian artisans."
+          desc="We teamed up with the people from Avaterra Living to design and create their first-ever website. Avaterra Living is a company with a mission and vision to promote the best handicrafts from local Indonesian artisans."
         />
         <Section className="flex-col -mt-[90px] xl:-mt-0">
           <div className="w-full aspect-[0.637] relative">

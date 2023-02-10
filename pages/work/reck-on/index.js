@@ -12,7 +12,7 @@ export default function ReckOn() {
         <BigPicture
           imgSrc="/website/reck-on/big.png"
           title="RECK-ON"
-          desc="This is our take on digital travel agency landing page. We tried to make it interesting by giving it a breath of fresh design."
+          desc="This is our take on a digital travel agency landing page. We tried to make it interesting by giving it a fresh design."
         />
         <Section className="flex-col -mt-[90px] xl:-mt-0">
           <div className="w-full aspect-[0.688] relative">

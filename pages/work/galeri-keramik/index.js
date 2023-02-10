@@ -13,14 +13,14 @@ export default function GaleriKeramik() {
         <BigPicture
           imgSrc="/website/galeri-keramik/big.png"
           title="GALERI KERAMIK"
-          desc="Designing website from scratch, bringin together Galeri Keramik different product categories, services, and contact info into an unified website experiences"
+          desc="Designing a website from scratch, bringing together different product categories, services, and contact info into a unified website experience."
           link="https://galerikeramik.com"
         />
         <Section className="flex-col -mt-[90px]">
           <PictCaption
             bigImg="/website/galeri-keramik/bigImg.png"
             title="DESIGN GUIDELINES"
-            desc="These are sets of recommendation on how to apply our design principles to enforce consistent and positive user experiences throughout Galeri Keramik website."
+            desc="These are sets of recommendations on how to apply our design principles to enforce consistent and positive user experiences throughout the Galeri Keramik website."
             className="w-full aspect-[0.434]"
           />
         </Section>

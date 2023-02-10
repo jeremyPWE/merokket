@@ -12,7 +12,7 @@ export default function Travellux() {
         <BigPicture
           imgSrc="/website/suraja-law/big.png"
           title="SURAJA LAW OFFICES"
-          desc="SURAJA Law Offices is a Jakarta based law firm offering a full range of Indonesian legal services. At SURAJA, we focus on constantly delivering the highest quality legal services to meet our client&lsquo;s needs."
+          desc="SURAJA Law Offices is a Jakarta-based law firm offering a full range of Indonesian legal services. At SURAJA, we focus on constantly delivering the highest quality legal services to meet our clients&lsquo; needs."
           link="https://surajalaw.com"
         />
         <Section className="flex-col -mt-[90px] xl:-mt-0">

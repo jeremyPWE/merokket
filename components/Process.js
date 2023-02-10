@@ -42,22 +42,23 @@ function Process() {
           <h1 className="pb-[10px] 2xl:pb-[50px]">Work Process</h1>
           <h3>01. Brief & Analysis</h3>
           <p className="2xl:text-[28px] text-[#B3B3B3] 2xl:w-[920px] pb-[10px] 2xl:pb-[50px]">
-            We conduct an interview with the users, and then learn all the
-            details of the project. We start by researching the competitors,
-            collect refferences, and developt the structure for the site.
+            To begin the project, our team conducts an interview with the client
+            to gather all necessary details and information. We then conduct
+            thorough research on the project requirements, competitors, and
+            gather references to develop a clear structure for the website.
           </p>
           <h3>02. Prototype & Design</h3>
           <p className="2xl:text-[28px] text-[#B3B3B3] 2xl:w-[920px] pb-[10px] 2xl:pb-[50px]">
-            We build the website prototype by taking into the account the User
-            Experiences (UX). After approval we proceed by developing the design
-            cncepts (UI),then start the development based on the selected design
-            concept.
+            We create a prototype of the website, keeping in mind the user
+            experience (UX). Upon approval, we develop the design concepts (UI)
+            and select the best design for implementation.
           </p>
           <h3>03. Launch & Revise</h3>
           <p className="2xl:text-[28px] text-[#B3B3B3] 2xl:w-[920px] pb-[10px] 2xl:pb-[50px]">
-            After the design is finalized, we proceed building code for the
-            site, develop animation, connect forms and sevices, and perform
-            basic seo setup. We test the site for error and then launch it.
+            Once the design is finalized, we start developing the code, adding
+            animations, integrating forms and services, and performing basic SEO
+            setup. We rigorously test the website for errors, and upon
+            successful completion, launch it to the public.
           </p>
         </div>
       </div>

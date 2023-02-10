@@ -15,10 +15,11 @@ function Tagline() {
           </h3>
 
           <p className="2xl:text-[28px] text-[#B3B3B3] w-[300px] md:w-[400px] 2xl:w-[920px] pb-[30px] lg:pb-[50px]">
-            Sit down tight while we customize your online digital branding. Get
-            your accurate user experience and personalized design. Not only we
-            try to give your business a digital advantage in design. We also
-            provide a good robust quality code.
+            Please have a seat as we tailor your online digital branding to your
+            specific needs. Our goal is to deliver a seamless user experience
+            and a personalized design that will give your business a competitive
+            edge in the digital world. In addition to the visual aspect, we also
+            prioritize the robustness and quality of our code.
           </p>
           <Link
             href="/about"

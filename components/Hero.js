@@ -58,9 +58,9 @@ function Hero() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
           >
-            Hello, we are merokket. A group of web developer & UI/UX designer,
-            that strives for exceptional visualization with a spot on
-            functionality.
+            Hello, we are Merokket - a team of web developers and UI/UX
+            designers who aim for exceptional visualization combined with
+            flawless functionality.
           </motion.p>
           <div className="w-[0px] relative lg:w-1/3">
             <div className="bg-[#B3B3B3] h-[1px]" />

@@ -13,19 +13,19 @@ export default function ComposureMagazine() {
         <BigPicture
           imgSrc="/website/composure-magazine/big.png"
           title="COMPOSURE"
-          desc="Composure Magazine is a publication media that celebrates current fashion and beuty trends, while showcasing the style and lives of celebrities."
+          desc="Composure Magazine is a publication that celebrates current fashion and beauty trends while showcasing the styles and lives of celebrities."
           link="https://composuremagazine.com"
         />
         <Section className="flex-col -mt-[90px] xl:-mt-0">
           <PictCaption
             smallImg="/website/composure-magazine/smallImg.png"
             title="CONNECTING WITH TODAY GENERATION"
-            desc="Featuring brands for everyone who has discerning sensibility for aspiration and modern life style. Through our research we came to conclusion that the re-design of composure need to be able to connect with any one who want to improve both their fashion or lifestyle."
+            desc="Featuring brands for everyone who has discerning sensibility for aspiration and modern life style. Through our research, we came to the conclusion that the redesign of composure needs to be able to connect with anyone who wants to improve their fashion or lifestyle."
           />
           <PictCaption
             bigImg="/website/composure-magazine/bigImg.png"
             title="DESIGN FOR EXPERIENCE"
-            desc="Since Composure is a digital magazine, our approach for the re-design is to make it simple for the readers to navigate the site, explore categories , and find the magazine / article that they want to read."
+            desc="Since Composure is a digital magazine, our approach for the re-design is to make it simple for the readers to navigate the site, explore categories, and find the magazine or article that they want to read."
             className="w-full aspect-[0.537]"
           />
         </Section>

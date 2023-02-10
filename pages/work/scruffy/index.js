@@ -12,7 +12,7 @@ export default function Scruffy() {
         <BigPicture
           imgSrc="/branding/scruffy/big.png"
           title="SCRUFFY"
-          desc="Our first exploration with a goal to learn about brand & logo design. Scruffy is a brand that provide sustainable pet care product for your fur buddy."
+          desc="Our first exploration had the goal of learning about brand and logo design. Scruffy is a brand that provides sustainable pet care products for your pets."
         />
         <Section className="flex-col -mt-[90px] xl:-mt-0">
           <div className="w-full aspect-[0.468] relative bg-gray-300">

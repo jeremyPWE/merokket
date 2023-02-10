@@ -285,8 +285,9 @@ function Showcase() {
           </div>
           <h1 className="py-[5px] 2xl:py-[15px]">Showcase</h1>
           <p className="2xl:text-[28px] text-[#B3B3B3] w-[200px] md:w-[320px] 2xl:w-[660px] pb-[15px] 2xl:pb-[30px] text-center">
-            See what our team can do on both design and coding. Here are our
-            recent work that we proud of.
+            Discover the full range of our design and development capabilities.
+            Check out our recent projects that showcase our expertise and
+            demonstrate why we are proud of our work.
           </p>
           <Link
             href="/work"

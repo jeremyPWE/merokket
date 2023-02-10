@@ -12,7 +12,7 @@ export default function Travellux() {
         <BigPicture
           imgSrc="/website/travellux/big.png"
           title="TRAVELLUX"
-          desc="Travellux is our take on a digital travel journals where travellers could share their personal travel experiences. They could also like and commend on their friend post and travel location."
+          desc="Travellux is our take on a digital travel journal where travelers could share their personal travel experiences. They could also like and commend their friend&lsquo;s post and travel location."
         />
         <Section className="flex-col -mt-[90px] xl:-mt-0">
           <div className="w-full aspect-[0.501] relative">

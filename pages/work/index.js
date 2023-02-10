@@ -19,8 +19,8 @@ const services = () => {
             WEBSITES
           </h1>
           <p className="hidden lg:flex w-[320px] text-center xl:text-left xl:w-[476px] pt-[50px]">
-            By combining strategy, design, and technology we enable brands to
-            share their story and connect with their customers
+            Empowering brands through strategic design and innovative technology
+            to tell their story and connect with their audience.
           </p>
           <div className="flex items-center justify-center pt-[20px] xl:pt-[50px] w-full">
             <div className="2xl:w-[368px] lg:h-[231px] relative">
@@ -41,8 +41,8 @@ const services = () => {
             </div>
           </div>
           <p className="lg:hidden w-[280px] pt-[10px] text-center border-b md:border-0 md:pb-0 pb-[40px]">
-            By combining strategy, design, and technology we enable brands to
-            share their story and connect with their customers
+            Empowering brands through strategic design and innovative technology
+            to tell their story and connect with their audience.
           </p>
         </div>
       </Link>
@@ -56,8 +56,8 @@ const services = () => {
             BRANDING
           </h1>
           <p className="hidden lg:flex w-[320px] text-center xl:text-left xl:w-[476px] pt-[50px]">
-            Turning your complex business idea into a design that will leave an
-            impression on every future potential customer.
+            Transforming complex business ideas into impactful designs, leaving
+            a lasting impression on potential customers.
           </p>
           <div className="flex items-center justify-center pt-[20px] lg:pt-[40px] xl:pt-[50px] w-full">
             <div className="w-full md:w-[300px] xl:w-[368px] 2xl:w-[512px] aspect-[1.593] 2xl:aspect-[2.216] relative">
@@ -70,8 +70,8 @@ const services = () => {
             </div>
           </div>
           <p className="lg:hidden w-[280px] pt-[10px] text-center">
-            Turning your complex business idea into a design that will leave an
-            impression on every future potential customer.
+            Transforming complex business ideas into impactful designs, leaving
+            a lasting impression on potential customers.
           </p>
         </div>
       </Link>

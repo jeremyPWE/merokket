@@ -5,14 +5,14 @@ const brandingData = {
       imgSrc: "/branding/icon/mr.png",
       imgTitle: "Morning Rooster",
       imgDesc:
-        "Morning Rooster is a small roastery, where it intends to expand their businesses by selling a high quality coffee beans and coffee drip product.",
+        "Morning Rooster is a small roastery that plans to grow by selling high-quality coffee beans and coffee drip products.",
       link: "/work/morning-rooster",
     },
     {
       imgSrc: "/branding/icon/scru.png",
       imgTitle: "Scruffy",
       imgDesc:
-        "Our first exploration with a goal to learn about brand & logo design. Scruffy is a brand that provide sustainable pet care product for your fur buddy.",
+        "Our first exploration had the goal of learning about brand and logo design. Scruffy is a brand that provides sustainable pet care products for your pets.",
       link: "/work/scruffy",
     },
   ],
@@ -25,42 +25,42 @@ const websiteData = {
       imgSrc: "/website/icon/gk.png",
       imgTitle: "GALERI KERAMIK",
       imgDesc:
-        "Bringing together Galeri Keramik different products category, sevices, contact into an unified website experience.",
+        "Bringing together Galeri Keramik's different product categories, services, and contacts into a unified website experience",
       link: "/work/galeri-keramik",
     },
     {
       imgSrc: "/website/icon/cm.png",
       imgTitle: "COMPOSURE MAGAZINE",
       imgDesc:
-        "We did a website redesign for Composure Magazine, an online magazine based in USA. Composure Magazine is a publication that celebrates current fashion and beauty trends, while showcasing the style and lives of celebrities.",
+        "We did a website redesign for Composure Magazine, an online magazine based in the USA. Composure Magazine is a publication that celebrates current fashion and beauty trends while showcasing the styles and lives of celebrities.",
       link: "/work/composure-magazine",
     },
     {
       imgSrc: "/website/icon/fc.png",
       imgTitle: "FOCUS CULT",
       imgDesc:
-        "Focus cult is an initiative answer to lessen the impact of smarphone addiction by making its user close down the phone and record their choosen activity. (UI/UX Research)",
+        "Focus Cult is an initiative to lessen the impact of smartphone addiction by making its users shut down their phones and record their chosen activities. (UI/UX Research)",
       link: "/work/focus-cult",
     },
     {
       imgSrc: "/website/icon/al.png",
       imgTitle: "AVATERRA LIVING",
       imgDesc:
-        "We teamed up with the people from Avaterra Living to design and create their first ever website. Avaterra living is a company with a mission and vision to promote the best handicrafts from local Indonesian artisans.",
+        "We teamed up with the people from Avaterra Living to design and create their first ever website. Avaterra Living is a company with a mission and vision to promote the best handicrafts from local Indonesian artisans.",
       link: "/work/avaterra-living",
     },
     {
       imgSrc: "/website/icon/gate.png",
       imgTitle: "GATE KEEPING",
       imgDesc:
-        "This section is our take on how art gallery should adapt during pandemic, and that adaptation is to utilize online platform to make sure that people could visit or see the art on their offline gallery. ",
+        "This section is our opinion on how art galleries should adapt during a pandemic, which is to use online platforms to ensure that people can visit or see the art in their offline galleries.",
       link: "/work/gate-keeping",
     },
     {
       imgSrc: "/website/icon/betu.png",
       imgTitle: "BETUNICA",
       imgDesc:
-        "Creating fictional website for a luxury dinner type restaurant. We design everything from start to finish.(Logo, typography, color template, web design)",
+        "Creating a fictional website for a luxury dinner-type restaurant We design everything from start to finish. (Logo, typography, color template, web design)",
       link: "/work/betunica",
     },
   ],

@@ -13,12 +13,12 @@ export default function FocusCult() {
         <BigPicture
           imgSrc="/website/focus-cult/big.png"
           title="FOCUS CULT"
-          desc="Focus cult is an initiative answer to lessen the impact of smarphone addiction by making its user close down the phone and record their choosen activity. "
+          desc="Focus Cult is an initiative to lessen the impact of smartphone addiction by making its users shut down their phones and record their chosen activities."
         />
         <Section className="flex-col">
           <PictCaption
             title="PROBLEM CONTEXT"
-            desc="In this digital era people are much empowered by convinience. Mobilephone are part of our everyday life, it&lsquo;s undeniable that smartphone has aid our daily activity tremendously. With it&lsquo;s good trait it also come with some bad trait to our daily life. This dependency on smartphone would soon turned into a smartphone addiction, that bring negative impact to our daily life. It&lsquo;s proneness to disrupt both sleep and daily productivity."
+            desc="In this digital era, people are much more empowered by convenience. Mobile phones are part of our everyday lives; it&lsquo;s undeniable that smartphones have aided our daily activities tremendously. With it&lsquo;s good trait it also come with some bad trait to our daily life. This dependency on smartphone would soon turned into a smartphone addiction, that bring negative impact to our daily life. Its proneness to disrupt both sleep and daily productivity"
           />
           <PictCaption
             bigImg="/website/focus-cult/bigImg1.png"
@@ -29,19 +29,19 @@ export default function FocusCult() {
           <PictCaption
             bigImg="/website/focus-cult/bigImg2.png"
             title="USER RESEARCH"
-            desc="I conducted interviews on 15 participants and created empathy maps to understand the user that I designing for and their needs. There are 3 user groups that can be identified from this interviews."
+            desc="I conducted interviews with 15 participants and created empathy maps to understand the user that I was designing for and their needs. There are 3 user groups that can be identified from these interviews."
             className="w-full aspect-[4.545] bg-[#141414]"
           />
           <PictCaption
             bigImg="/website/focus-cult/bigImg3.png"
             title="USER PERSONA"
-            desc="Based on the user group that I sorted out from the interviewers, I start to build a persona that could represent the common need of the potential users that the platform would base to buid on."
+            desc="Based on the user group that I sorted out from the interviewers, I started to build a persona that could represent the common needs of the potential users that the platform would be built on."
             className="w-full aspect-[0.995] bg-[#141414]"
           />
           <PictCaption
             bigImg="/website/focus-cult/bigImg4.png"
             title="PRODUCT VALUE"
-            desc="By synthesizing all the data from user research, insight are generated, groupe, and prioritized. As a result, value propositions for Focus Cult are established."
+            desc="By synthesizing all the data from user research, insights are generated, grouped, and prioritized. As a result, value propositions for Focus Cult have been established."
             className="w-full aspect-[1.692] bg-[#141414]"
           />
           <PictCaption
@@ -52,19 +52,19 @@ export default function FocusCult() {
           <PictCaption
             bigImg="/website/focus-cult/bigImg6.png"
             title="WIREFRAMES"
-            desc="Taking the time to draft iterations of each screens of the app on paper ensured that the element that made it to digital wireframe would be well suited addressing to the user pain points. I prioritized a quick menu load out to streamline the process and esay waty to acces the status overview to help the user."
+            desc="Taking the time to draft iterations of each screen of the app on paper ensured that the elements that made it to the digital wireframe would be well suited to addressing the user&lsquo;s pain points. I prioritized a quick menu load out to streamline the process and esay way to acces the status overview to help the user."
             className="w-full aspect-[1.767] bg-[#141414]"
           />
           <PictCaption
             bigImg="/website/focus-cult/bigImg7.png"
             title="AFFINITY DIAGRAM"
-            desc="I synthesized the data from the previous studies and started categorizing to generate insight and finding the common themes."
+            desc="I synthesized the data from the previous studies and started categorizing to generate insight and find the common themes."
             className="w-full aspect-[1.050] bg-[#141414]"
           />
           <PictCaption
             bigImg="/website/focus-cult/bigImg8.png"
             title="High Fidelity Mockups"
-            desc="High Fidelity Mockups also known as visual design are the final design element of the process. These design represent how the app finally looks like after developed."
+            desc="High-fidelity mockups, also known as &ldquo;visual design,&rdquo; are the final design element of the process. These designs represent how the app finally looks after being developed."
             className="w-full aspect-[1.524] bg-[#141414]"
           />
           <PictCaption
@@ -85,7 +85,7 @@ export default function FocusCult() {
           <PictCaption
             bigImg="/website/focus-cult/bigImg12.png"
             title="Light & Dark Mode"
-            desc="A dedicated nightmode dashboard for more enjoyable user experiences. From main menu, home, setting, history, summoning pool and achievement."
+            desc="A dedicated night mode dashboard for more enjoyable user experiences from the main menu, home, setting, history, summoning pool, and achievement."
             className="w-full aspect-[1.405] bg-[#141414]"
           />
         </Section>

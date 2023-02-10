@@ -45,19 +45,19 @@ export default function About() {
             <div className="hidden xl:flex w-1/4" />
             <div className="xl:w-[940px] mr-[15px] flex flex-col">
               <h4 className="font-medium pb-[10px] md:pb-[25px] xl:pr-[70px]">
-                One team, many talent. The people that you will meet and talk
-                will be the one who will be working on your brand, so
-                there&lsquo;s no disconnect between the thinking and doing.
+                One team, many talents. Our dedicated and skilled professionals
+                will work closely with you to bring your brand to life, bridging
+                the gap between vision and execution.
               </h4>
               <p className="xl:pr-[70px] 2xl:text-[24px]">
-                Design and logo is just a front door of your business. Increase
-                your business value by giving it a good branding and design.
-                Breath a life to your brand by giving it a good story telling.
+                Design and logo are just the first impression of your business.
+                Elevate your brand value by investing in good branding and
+                design. Give life to your brand by crafting a compelling story.
                 <br />
                 <br />
-                When creating online experiences , we put it&lsquo;s user at the
-                center of every decision and take a data backed approach to
-                deliver the results.
+                At the core of our online experiences, we always put the user
+                first. We use a data-driven approach to make informed decisions
+                and deliver results that matter.
               </p>
             </div>
           </div>

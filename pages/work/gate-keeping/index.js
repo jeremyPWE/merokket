@@ -19,12 +19,12 @@ export default function GateKeeping() {
           <PictCaption
             smallImg="/website/gate-keeping/smallImg.png"
             title="A CURRATED ONLINE GALLERY"
-            desc="Delivering a new experience for people that longing to visit online gallery during the pandemic"
+            desc="Delivering a new experience for people that long to visit the online gallery during the pandemic"
           />
           <PictCaption
             bigImg="/website/gate-keeping/bigImg.png"
             title="WIDE RANGE OPTION FOR GLOBAL AUDIENCE"
-            desc="We focused on creating an online platform gallery that act as a one stop online gallery for all your art needs. We made sure our design had all the wide range option  choosing the art that you want to see online."
+            desc="We focused on creating an online platform gallery that would act as a one-stop online gallery for all your art needs. We made sure our design had all the wide range option choosing the art that you want to see online. "
             className="w-full aspect-[0.445]"
           />
         </Section>
