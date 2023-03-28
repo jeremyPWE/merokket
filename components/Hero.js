@@ -15,6 +15,7 @@ function Hero() {
         <div className="relative w-full h-full flex items-center justify-center">
           <AnimatePresence>
             <motion.div
+              key="1"
               className="absolute top-0 w-[340px] md:w-[640px] 2xl:w-[1520px] bg-[#141414] aspect-[2.634] z-30"
               initial={{ transform: "scaleX(1)", originX: 1 }}
               animate={{ transform: "scaleX(0)", originX: 1 }}
@@ -24,6 +25,7 @@ function Hero() {
               <Image src="/hero/whiteHero.svg" alt="hero image" fill />
             </div>
             <motion.div
+              key="2"
               className="absolute top-0 z-10 w-[335px] md:w-[620px] 2xl:w-[1500px] aspect-[2.634]"
               initial={{ x: 0 }}
               animate={{ x: isMobile ? 4 : 10 }}
@@ -32,6 +34,7 @@ function Hero() {
               <Image src="/hero/blueHero.svg" alt="hero image" fill />
             </motion.div>
             <motion.div
+              key="3"
               className="absolute top-0 z-0 w-[335px] md:w-[620px] 2xl:w-[1500px] aspect-[2.634]"
               initial={{ x: 0 }}
               animate={{ x: isMobile ? 8 : 20 }}
