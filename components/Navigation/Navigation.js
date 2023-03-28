@@ -75,9 +75,9 @@ const Navbar = ({ isOpen, toggle, route, router, ...props }) => {
         <motion.div
           initial={false}
           animate={isOpen ? "open" : "closed"}
-          className="md:hidden"
+          className={`md:hidden opacity-0`}
         >
-          <MenuToggle toggle={() => toggle()} isOpen={isOpen} />
+          <MenuToggle toggle={toggle} isOpen={isOpen} />
         </motion.div>
       </Section>
     </nav>
@@ -93,6 +93,13 @@ const Sidebar = ({ isOpen, toggle }) => {
       className="absolute top-0 z-30 py-2 justify-between md:hidden flex w-full"
       role="navigation"
     >
+      <motion.div
+        initial={false}
+        animate={isOpen ? "open" : "closed"}
+        className="md:hidden"
+      >
+        <MenuToggle toggle={toggle} isOpen={isOpen} />
+      </motion.div>
       <AnimatePresence>
         {isOpen && (
           <motion.aside
@@ -137,14 +144,11 @@ const Sidebar = ({ isOpen, toggle }) => {
 
 const Navigation = ({ t, ...props }) => {
   const router = useRouter();
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
+  const [isOpen, setIsOpen] = useCycle(false, true);
   return (
     <div className="overflow-hidden w-full">
       <Navbar
-        toggle={toggle}
+        toggle={() => setIsOpen()}
         route={router.pathname}
         router={router}
         t={t}
@@ -152,7 +156,7 @@ const Navigation = ({ t, ...props }) => {
       />
       <Sidebar
         isOpen={isOpen}
-        toggle={toggle}
+        toggle={() => setIsOpen()}
         route={router.pathname}
         t={t}
         {...props}
