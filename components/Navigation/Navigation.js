@@ -75,7 +75,7 @@ const Navbar = ({ isOpen, toggle, route, router, ...props }) => {
         <motion.div
           initial={false}
           animate={isOpen ? "open" : "closed"}
-          className={`md:hidden opacity-0`}
+          className={`md:hidden`}
         >
           <MenuToggle toggle={toggle} isOpen={isOpen} />
         </motion.div>
@@ -84,7 +84,7 @@ const Navbar = ({ isOpen, toggle, route, router, ...props }) => {
   );
 };
 
-const Sidebar = ({ isOpen, toggle }) => {
+const Sidebar = ({ isOpen }) => {
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
@@ -93,13 +93,6 @@ const Sidebar = ({ isOpen, toggle }) => {
       className="absolute top-0 z-30 py-2 justify-between md:hidden flex w-full"
       role="navigation"
     >
-      <motion.div
-        initial={false}
-        animate={isOpen ? "open" : "closed"}
-        className="md:hidden"
-      >
-        <MenuToggle toggle={toggle} isOpen={isOpen} />
-      </motion.div>
       <AnimatePresence>
         {isOpen && (
           <motion.aside
@@ -148,6 +141,7 @@ const Navigation = ({ t, ...props }) => {
   return (
     <div className="overflow-hidden w-full">
       <Navbar
+        isOpen={isOpen}
         toggle={() => setIsOpen()}
         route={router.pathname}
         router={router}
