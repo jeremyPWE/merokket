@@ -13,6 +13,7 @@ function Showcase() {
                 src="/marquee/top1.png"
                 alt="marquee item 1"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -21,6 +22,7 @@ function Showcase() {
                 src="/marquee/top2.png"
                 alt="marquee item 2"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -29,6 +31,7 @@ function Showcase() {
                 src="/marquee/top3.png"
                 alt="marquee item 3"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -37,6 +40,7 @@ function Showcase() {
                 src="/marquee/top4.png"
                 alt="marquee item 4"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -45,6 +49,7 @@ function Showcase() {
                 src="/marquee/top5.png"
                 alt="marquee item 5"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -55,6 +60,7 @@ function Showcase() {
                 src="/marquee/top1.png"
                 alt="marquee item 1"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -63,6 +69,7 @@ function Showcase() {
                 src="/marquee/top2.png"
                 alt="marquee item 2"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -71,6 +78,7 @@ function Showcase() {
                 src="/marquee/top3.png"
                 alt="marquee item 3"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -79,6 +87,7 @@ function Showcase() {
                 src="/marquee/top4.png"
                 alt="marquee item 4"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -87,6 +96,7 @@ function Showcase() {
                 src="/marquee/top5.png"
                 alt="marquee item 5"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -101,6 +111,7 @@ function Showcase() {
                 src="/marquee/mid1.png"
                 alt="marquee item 1"
                 fill
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 306px, 558px"
                 className="object-cover"
               />
             </div>
@@ -109,6 +120,7 @@ function Showcase() {
                 src="/marquee/mid2.png"
                 alt="marquee item 2"
                 fill
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 306px, 558px"
                 className="object-cover"
               />
             </div>
@@ -117,6 +129,7 @@ function Showcase() {
                 src="/marquee/mid3.png"
                 alt="marquee item 3"
                 fill
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 306px, 558px"
                 className="object-cover"
               />
             </div>
@@ -125,6 +138,7 @@ function Showcase() {
                 src="/marquee/mid4.png"
                 alt="marquee item 4"
                 fill
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 306px, 558px"
                 className="object-cover"
               />
             </div>
@@ -133,6 +147,7 @@ function Showcase() {
                 src="/marquee/mid5.png"
                 alt="marquee item 5"
                 fill
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 306px, 558px"
                 className="object-cover"
               />
             </div>
@@ -143,6 +158,7 @@ function Showcase() {
                 src="/marquee/mid1.png"
                 alt="marquee mid 1"
                 fill
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 306px, 558px"
                 className="object-cover"
               />
             </div>
@@ -151,6 +167,7 @@ function Showcase() {
                 src="/marquee/mid2.png"
                 alt="marquee item 2"
                 fill
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 306px, 558px"
                 className="object-cover"
               />
             </div>
@@ -159,6 +176,7 @@ function Showcase() {
                 src="/marquee/mid3.png"
                 alt="marquee item 3"
                 fill
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 306px, 558px"
                 className="object-cover"
               />
             </div>
@@ -167,6 +185,7 @@ function Showcase() {
                 src="/marquee/mid4.png"
                 alt="marquee item 4"
                 fill
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 306px, 558px"
                 className="object-cover"
               />
             </div>
@@ -175,6 +194,7 @@ function Showcase() {
                 src="/marquee/mid5.png"
                 alt="marquee item 5"
                 fill
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 306px, 558px"
                 className="object-cover"
               />
             </div>
@@ -189,6 +209,7 @@ function Showcase() {
                 src="/marquee/bot1.png"
                 alt="marquee item 1"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -197,6 +218,7 @@ function Showcase() {
                 src="/marquee/bot2.png"
                 alt="marquee item 2"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -205,6 +227,7 @@ function Showcase() {
                 src="/marquee/bot3.png"
                 alt="marquee item 3"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -213,6 +236,7 @@ function Showcase() {
                 src="/marquee/bot4.png"
                 alt="marquee item 4"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -221,6 +245,7 @@ function Showcase() {
                 src="/marquee/bot5.png"
                 alt="marquee item 5"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -231,6 +256,7 @@ function Showcase() {
                 src="/marquee/bot1.png"
                 alt="marquee item 1"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -239,6 +265,7 @@ function Showcase() {
                 src="/marquee/bot2.png"
                 alt="marquee item 2"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -247,6 +274,7 @@ function Showcase() {
                 src="/marquee/bot3.png"
                 alt="marquee item 3"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -255,6 +283,7 @@ function Showcase() {
                 src="/marquee/bot4.png"
                 alt="marquee item 4"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
@@ -263,6 +292,7 @@ function Showcase() {
                 src="/marquee/bot5.png"
                 alt="marquee item 5"
                 fill
+                sizes="(max-width: 639px) 140px, (max-width: 1023px) 220px, 409px"
                 className="object-cover"
               />
             </div>
