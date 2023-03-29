@@ -115,7 +115,7 @@ const Sidebar = ({ isOpen }) => {
   }, [isOpen]);
   return (
     <nav
-      className="absolute top-0 z-30 py-2 justify-between md:hidden flex w-full"
+      className="fixed top-0 z-30 py-2 justify-between md:hidden flex w-full"
       role="navigation"
     >
       <AnimatePresence>
