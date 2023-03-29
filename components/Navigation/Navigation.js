@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { AnimatePresence, motion, useCycle } from "framer-motion";
 import Section from "../Section";
@@ -37,9 +37,26 @@ const sideVariants = {
 };
 
 const Navbar = ({ isOpen, toggle, route, router, ...props }) => {
+  const [showNav, setShowNav] = useState(true);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setShowNav(currentScrollPos < prevScrollPos || currentScrollPos === 0);
+      setPrevScrollPos(currentScrollPos);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos]);
+
   return (
     <nav
-      className="relative top-0 z-40 py-2 justify-center flex"
+      className={`fixed top-0 z-40 py-2 justify-center flex transition-transform duration-300 w-full ${
+        showNav
+          ? "transform translate-y-0 bg-[#141414]"
+          : "transform -translate-y-full "
+      }`}
       role="navigation"
     >
       <Section>
