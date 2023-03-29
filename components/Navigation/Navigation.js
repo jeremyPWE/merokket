@@ -40,12 +40,20 @@ const Navbar = ({ isOpen, toggle, route, router, ...props }) => {
   const [showNav, setShowNav] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
 
+  const debounce = (func, delay) => {
+    let timer;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => func(...args), delay);
+    };
+  };
+
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = debounce(() => {
       const currentScrollPos = window.scrollY;
       setShowNav(currentScrollPos < prevScrollPos || currentScrollPos === 0);
       setPrevScrollPos(currentScrollPos);
-    };
+    }, 100);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [prevScrollPos]);
