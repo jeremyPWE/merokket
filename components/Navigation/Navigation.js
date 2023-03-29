@@ -135,7 +135,7 @@ const Sidebar = ({ isOpen }) => {
             className="bg-[#141414] w-full"
           >
             <motion.div
-              className="flex flex-col items-center justify-center h-full"
+              className="flex flex-col items-center justify-center h-full mt-[-30px]"
               initial="closed"
               animate="open"
               exit="closed"
@@ -147,7 +147,7 @@ const Sidebar = ({ isOpen }) => {
                   href={to}
                   whileHover={{ scale: 1.1 }}
                   variants={itemVariants}
-                  className="text-[#f9fafb] text-[1.75rem] px-[40px] py-[10px] m-[10px] border border-black border-opacity-10"
+                  className="text-[#f9fafb] text-[1.75rem] px-[40px] py-[10px] m-[10px]"
                 >
                   {name}
                 </motion.a>
