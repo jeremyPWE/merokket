@@ -11,7 +11,7 @@ function Hero() {
 
   return (
     <Section>
-      <div className="pt-[25vh] 2xl:pt-[20vh] w-full min-h-[78vh]">
+      <div className="pt-[15vh] 2xl:pt-[8vh] w-full min-h-[78vh]">
         <div className="relative w-full h-full flex items-center justify-center">
           <AnimatePresence>
             <motion.div

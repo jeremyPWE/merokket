@@ -164,7 +164,7 @@ const Navigation = ({ t, ...props }) => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useCycle(false, true);
   return (
-    <div className="overflow-hidden w-full">
+    <div className="overflow-hidden w-full mb-[100px]">
       <Navbar
         isOpen={isOpen}
         toggle={() => setIsOpen()}
